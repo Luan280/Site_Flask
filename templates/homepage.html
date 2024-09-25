@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <title>HomePage</title>
     <link rel="stylesheet" href="{{url_for('static', filename='estilo.css')}}">
+    
 </head>
 <body>
-    <h1 id= "teste" >E ai, Luan aqui!</h1>
-    <p>Eu sou o luan, atualmente cursando Engenharia de Software e trabalhando em uma escola como auxiliar de recreação.</p>
+    <h1 id = "teste" >E ai, Luan aqui!</h1>
+    <p>Eu sou o Luan, atualmente cursando Engenharia de Software e trabalhando em uma escola como auxiliar de recreação.</p>
     <p>Estou em busca do primeiro emprego, porém, antes de conseguir eu estou desenvolvendo projetos pessoais e trabalhando como freelancer para ganhar experiência e portifólio.</p>
+    <div>
+        <h2>Redes sociais:</h2>
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-instagram.webp') }}" alt="Logo-Instagram">Instagram
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-github.png')}}" alt="Logo-GitHub">GitHub
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-linkedin.png')}}" alt="Logo-Linkedin">Linkedin
+    </div>
     <h2>Conhecimento:</h2>
     <la>
-        <li>Python: Avançado</li>
+        <li class="sub-titulos">Python;</li>
         <ul type="circle">
             <li> -Sintaxe e variáveis</li>
             <li> -Tipos, listas, tuplas, dicionários.</li>
-            <li> -Condições e loops</li>
+            <li> -Condições e loops</li>  
             <li> -Funções e argumentos</li>
+            <li> -Programação orientada a objetos (Classes)</li>
         </ul>
-        <li>Banco de Dados (MySQL): Básico</li>
-        <ul type="circle">
+        <li class= "sub-titulos">Banco de Dados (MySQL);</li>
+        <ul type= "circle">
             <li> -Criar Banco de dados, configurar e gerenciar tabelas.</li>
             <li> -Hospedar banco de dados na nuvem.</li>
             <li> -CRUD</li>
             <li> -Sintaxe</li>
         </ul>
-        <li>HTML e CSS: Intermediário.</li>
+        <li class="sub-titulos">HTML e CSS;</li>
         <p></p>
     </la>
 </body>
