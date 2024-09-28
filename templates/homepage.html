@@ -7,22 +7,41 @@
     
 </head>
 <body>
-    <h1 id = "teste" >E ai, Luan aqui!</h1>
-    <p>Eu sou o Luan, atualmente cursando Engenharia de Software e trabalhando em uma escola como auxiliar de recreação.</p>
-    <p>Estou em busca do primeiro emprego, porém, antes de conseguir eu estou desenvolvendo projetos pessoais e trabalhando como freelancer para ganhar experiência e portifólio.</p>
+    <img id="img_principal" src="{{ url_for('static',filename='imagens/logo_luan_lima.png')}}" alt="Luan Lima Pixel Art">
+    <h1 id = "teste" >LUAN FERREIRA LIMA</h1>
+    <p> Eu sou o Luan, atualmente cursando Engenharia de Software e trabalhando em uma escola como auxiliar de recreação.<br>
+        Estou em busca do primeiro emprego, porém, antes de conseguir estou desenvolvendo projetos pessoais e
+        trabalhando como freelancer para ganhar experiência e portifólio.<br>
+        Abaixo tenho alguns livros que pretendo ler, outros que já li e o meu portfólio com alguns projetos pessoais.
+
+    </p>
     <div>
-        <h2>Redes sociais:</h2>
-        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-instagram.webp') }}" alt="Logo-Instagram">Instagram
-        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-github.png')}}" alt="Logo-GitHub">GitHub
-        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-linkedin.png')}}" alt="Logo-Linkedin">Linkedin
+        <h1>Redes sociais:</h1>
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-instagram.webp') }}" alt="Logo-Instagram">
+        <a href="https://www.instagram.com/luan_lima280/" target="_blank">Instagram</a>
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-github.png')}}" alt="Logo-GitHub">
+        <a href="https://github.com/Luan280" target="_blank">GitHub</a>
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-linkedin.png')}}" alt="Logo-Linkedin">
+        <a href="https://www.linkedin.com/in/luan-lima280/" target="_blank">Linkedin</a>
+    </div>
+    <div>
+    <h1>Livros:</h1>
+        <h2>Pretendo ler em 2025:</h2>
+        <ul>
+            <li>Pense em python</li>
+        </ul>
+        <h2>Lidos:</h2>
+        <ul>
+        <li></li>
+        </ul>
     </div>
     <h2>Conhecimento:</h2>
-    <la>
+    <ul>
         <li class="sub-titulos">Python;</li>
         <ul type="circle">
             <li> -Sintaxe e variáveis</li>
             <li> -Tipos, listas, tuplas, dicionários.</li>
-            <li> -Condições e loops</li>  
+            <li> -Condições e loops</li>
             <li> -Funções e argumentos</li>
             <li> -Programação orientada a objetos (Classes)</li>
         </ul>
@@ -35,6 +54,6 @@
         </ul>
         <li class="sub-titulos">HTML e CSS;</li>
         <p></p>
-    </la>
+    </ul>
 </body>
 </html>
