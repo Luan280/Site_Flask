@@ -1,3 +1,7 @@
 #teste{
+    align-self: center;
     width: 500px;
+ }
+.body{
+    align-items: center;
  }
