@@ -7,41 +7,44 @@
     
 </head>
 <body>
-    <img id="img_principal" src="{{ url_for('static',filename='imagens/logo_luan_lima.png')}}" alt="Luan Lima Pixel Art">
-    <h1 id = "teste" >LUAN FERREIRA LIMA</h1>
-    <p> Eu sou o Luan, atualmente cursando Engenharia de Software e trabalhando em uma escola como auxiliar de recreação.<br>
-        Estou em busca do primeiro emprego, porém, antes de conseguir estou desenvolvendo projetos pessoais e
-        trabalhando como<br> freelancer para ganhar experiência e portifólio.<br></p>
-    <p>
-        Abaixo tenho alguns livros que pretendo ler, outros que já li e o meu portfólio com alguns projetos pessoais:
-    </p>
-    <div>
-        <h1>Redes sociais:</h1>
-        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-instagram.webp') }}" alt="Logo-Instagram">
-        <a href="https://www.instagram.com/luan_lima280/" target="_blank">Instagram</a><br>
-        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-github.png')}}" alt="Logo-GitHub">
-        <a href="https://github.com/Luan280" target="_blank">GitHub</a><br>
-        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-linkedin.png')}}" alt="Logo-Linkedin">
-        <a href="https://www.linkedin.com/in/luan-lima280/" target="_blank">Linkedin</a>
+    <main>
+    <div class="img_principal">
+        <img src="{{ url_for('static',filename='imagens/logo_luan_lima.png')}}" alt="Luan Lima Pixel Art">
     </div>
-    <div>
-    <h1>Livros:</h1>
-        <h2>Pretendo ler em 2025:</h2>
+
+    <h1>LUAN FERREIRA LIMA</h1>
+    <p> Eu sou o Luan, atualmente cursando Engenharia de Software e trabalhando em uma escola como auxiliar de recreação.
+        Estou em busca do primeiro emprego, porém, antes de conseguir estou desenvolvendo projetos pessoais e
+        trabalhando como freelancer para ganhar experiência e portifólio.
+        </p>
+    <h2>Redes sociais:</h1>
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-instagram.webp') }}" alt="Logo-Instagram">
+        <a class="logo_imagens" href="https://www.instagram.com/luan_lima280/" target="_blank">Instagram</a><br>
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-github.png')}}" alt="Logo-GitHub">
+        <a class="logo_imagens" href="https://github.com/Luan280" target="_blank">GitHub</a><br>
+        <img class="logo_imagens" src="{{ url_for('static', filename='imagens/logo-linkedin.png')}}" alt="Logo-Linkedin">
+        <a class="logo_imagens" href="https://www.linkedin.com/in/luan-lima280/" target="_blank">Linkedin</a>
+    <h2>Livros:</h1>
+    <h3>Pretendo ler em 2025:</h2>
+    <div class="livros">
         <ul>
             <li><a href="https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634/" target="_blank">Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos</a></li>
             <li><a href="https://www.amazon.com.br/Programador-Pragm%C3%A1tico-Aprendiz-Mestre-ebook/dp/B019HM0H90/" target="_blank">O programador pragmático: De Aprendiz a Mestre</a></li>
             <li><a href="https://www.amazon.com.br/C%C3%B3digo-Limpo-Robert-C-Martin-ebook/dp/B085Q2K632/" target="_blank">Código limpo</a></li>
             <li></li>
         </ul>
-        <h2>Lidos:</h2>
+    </div>
+    <h3>Lidos:</h2>
+    <div class="livros">
         <ul>
             <li><a href="https://www.amazon.com.br/Pense-Python-Como-Cientista-Computa%C3%A7%C3%A3o/dp/8575225081/" target="_blank">Pense em Python: Pense Como um Cientista da Computação</a></li>
             <li><a href="https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-Linguagem-SQL-Abordagem-Iniciantes/dp/8575225014/" target="_blank">Introdução à Linguagem SQL: Abordagem Prática Para Iniciantes</a></li>
             <li><a href="https://www.amazon.com.br/Do-mil-milh%C3%A3o-cortar-cafezinho-ebook/dp/B07HQWPVRS/" target="_blank">Do mil ao milhão: Sem cortar o cafezinho</a></li>
             <li><a href="https://www.amazon.com.br/Ultra-aprendizado-habilidades-valiosas-competi%C3%A7%C3%A3o-carreira-ebook/dp/B08T3GNZFJ/" target="_blank">Ultra-aprendizado: Domine habilidades valiosas, seja mais esperto que a competição e dê um impulso na sua carreira</a></li>
-
         </ul>
     </div>
+    </main>
+    <div class="conhecimentos">
     <h2>Conhecimentos:</h2>
         <h3 class="sub-titulos">Python;</h3>
         <ul type="circle">
@@ -60,20 +63,16 @@
         </ul>
         <h3 class="sub-titulos">HTML e CSS;</h3>
         <ul type= "circle">
-            <li>Estrutura básica em HTML</li>
-            <ul>
-                <li>Elementos essenciais: < html >, < head >, < title >, < body >.</li>
-                <li>Uso correto de tags de abertura e fechamento.</li>
-                <li>Conheço as tags HTML mais comuns, como < p >, < h1 >, < a >, < img >, < div >, < span >, etc.</li>
-                <li>Atributos para às tags, como id, class, href, src, etc.</li>
-            </ul>
+            <li>- Estrutura básica em HTML</li>
+            <li>- Elementos essenciais: < html >, < head >, < title >, < body >.</li>
+            <li>- Uso correto de tags de abertura e fechamento.</li>
+            <li>- Conheço as tags HTML mais comuns, como < p >, < h1 >, < a >, < img >, < div >, < span >, etc.</li>
+            <li>- Atributos para às tags, como id, class, href, src, etc.</li>
             <li>Estruturação de Conteúdo:</li>
-            <ul>
-                <li>Utilização de tags de parágrafo < p > e títulos < h1 >, < h2 >, ..., < h6 >).</li>
-                <li>Criação de listas ordenadas < ol > e não ordenadas < ul ></li>
-                <li>Uso de listas aninhadas.</li>
-
-            </ul>
+            <li>- Utilização de tags de parágrafo < p > e títulos < h1 >, < h2 >, ..., < h6 >).</li>
+            <li>- Criação de listas ordenadas < ol > e não ordenadas < ul ></li>
+            <li>- Uso de listas aninhadas.</li>
         </ul>
+    </div>
 </body>
 </html>
