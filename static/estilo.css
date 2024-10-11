@@ -1,47 +1,61 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 main{
-    background-color: white;
-    margin: auto;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1100px;
+   background-color: #FEFEFE;
+   margin: auto;
+   padding: 20px;
+   border-radius: 30px;
+   width: 1100px;
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background-image: linear-gradient(to right, #455559, #28403D, #2F3D40);
+   margin: auto;
+   text-align: justify;
+   background-color: #282B33;
+   font-family: monospace;
+   font-size: 15px;
 
  }
+ .titulos_main{
+   color: #3c4258;
+ }
  p{
-    font-size: 130%;
-    text-align: justify;
-    padding: 25px;
+   font-size: 130%;
+   text-align: justify;
+   padding: 20px;
  }
  h1{
-    text-align: center;
-    padding: 25px;
-    font-size: 45px;
+   color: #3c4258;
+   text-align: center;
+   padding: 25px;
+   font-size: 45px;
  }
 
  h2{
-    font-size: 35px;
+   font-size: 30px;
  }
 
  h3{
-    font-size: 20px;
+   font-size: 20px;
  }
  .img_principal{
-    text-align: center;
+   text-align: center;
  }
  .logo_imagens{
-    width: 75px;
-    font-size: 150%;
+   width: 75px;
+   font-size: 150%;
  }
  .livros{
-    font-size: 130%;
-    text-align: justify;
+   font-size: 130%;
+   text-align: justify;
  }
  li{
-    padding: 5px;
+   padding: 5px;
+ }
+
+ .conhecimentos{
+   margin: auto;
+   width: 1140px;
+   padding: 30px;
+   font-size: 20px;
+   color: white;
  }
