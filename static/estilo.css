@@ -2,25 +2,27 @@
   font-size: 20px;
 }
 header{
-  background-color: #1a59ac;
+  background-color: orange;
+  margin: auto;
+  display: flex;
+  height: 100px;
+  align-items: end;
+  justify-content: space-between; /* espaço igual entre elementos */
 }
+
 header h1{
 color: black;
 }
 
 header ul li a{
   color: white;
-  text-decoration: none;
+  text-decoration: none;auto
   font-weight: bold;
 }
 
-nav ul li {
+nav ul li{
   display: inline;
   margin: 10px;
-}
-
-nav {
-  text-align: right;
 }
 
 nav ul li a:hover {
@@ -44,8 +46,8 @@ main a{
 main a:hover{
 text-decoration: underline  ;
 }
-main h1 h2 h3{
-  color: #3c4258;
+main h2, h3{
+  color: orange;
 }
 
 .imagens img {
